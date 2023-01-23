@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This is a Message Channel to refresh the expenseList component in the Expense Tracker app.</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>This is the refresh signal</description>
+        <fieldName>refresh</fieldName>
+    </lightningMessageFields>
+    <masterLabel>ExpenseListMessageChannel</masterLabel>
+</LightningMessageChannel>

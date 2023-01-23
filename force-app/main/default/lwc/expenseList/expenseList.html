@@ -1,0 +1,16 @@
+<template>
+    <lightning-layout style="height: 300px;">
+        <lightning-layout-item>
+        <lightning-spinner if:true={loading} alternative-text="Loading" size="medium"></lightning-spinner>
+        <lightning-datatable
+        key-field="id"
+        data={records}
+        columns={columns}
+        hide-checkbox-column="true"
+        sorted-by={sortBy}
+        sorted-direction={sortDirection}
+        onsort={doSorting}
+        ></lightning-datatable>
+    </lightning-layout-item>
+    </lightning-layout>
+</template>

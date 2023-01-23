@@ -1,0 +1,20 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "package": "expenseApp",
+      "versionName": "Spring '23",
+      "versionNumber": "1.0.0.NEXT",
+      "versionDescription": "App to track expenses"
+    }
+  ],
+  "name": "expenseApp",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "56.0",
+  "packageAliases": {
+    "expenseApp": "0HoDn000000XZQ8KAO",
+    "expenseApp@1.0.0-1": "04tDn000000mIZwIAM"
+  }
+}

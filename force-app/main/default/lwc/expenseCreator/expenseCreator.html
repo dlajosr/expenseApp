@@ -1,0 +1,22 @@
+<template>
+    <lightning-card title="Create a record">
+        <div class="slds-m-horizontal_small">
+        <lightning-record-edit-form
+        object-api-name={expenseObject}
+        onsuccess={handleExpenseCreated}
+        >
+            <lightning-input-field field-name={category}></lightning-input-field>
+            <lightning-input-field field-name={expenseDate}></lightning-input-field>
+            <lightning-input-field field-name={amount}></lightning-input-field>
+            <lightning-input-field field-name={recurring}></lightning-input-field>
+            <lightning-input-field field-name={numberOfTerms}></lightning-input-field>
+
+            <div class="slds-var-m-top_medium slds-align_absolute-center">
+                <lightning-button class="slds-m-horizontal_small" onclick={handleCancel} variant="netural" type="reset" name="cancel" label="Cancel"></lightning-button>
+                <lightning-button class="slds-m-horizontal_small" variant="brand" type="submit" name="save" label="Save"></lightning-button>
+            </div>
+
+        </lightning-record-edit-form>
+        </div>
+    </lightning-card>
+</template>
