@@ -15,6 +15,7 @@
   "sourceApiVersion": "56.0",
   "packageAliases": {
     "expenseApp": "0HoDn000000XZQ8KAO",
-    "expenseApp@1.0.0-1": "04tDn000000mIZwIAM"
+    "expenseApp@1.0.0-1": "04tDn000000mIZwIAM",
+    "expenseApp@1.0.0-5": "04tDn000000nCCXIA2"
   }
 }
